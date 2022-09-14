@@ -1,0 +1,178 @@
+@font-face {
+    font-family:"Permanent" ;
+    src: url(..//tipografias/Permanent.ttf);
+}
+
+@font-face {
+    font-family:"Special" ;
+    src: url(..//tipografias/Special.ttf);
+}
+@font-face {
+    font-family:"Raleway" ;
+    src: url(..//tipografias/Raleway-VariableFont_wght.ttf);
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.perfil{
+    background-color: #e72107e8;
+    border: 3px black solid;
+    width:25%;
+    box-shadow:5px 5px 0px 0px rgba(0, 0, 0, 0.479);
+   
+}
+
+h1 {
+    font-family: "Permanent";
+    display: flex;
+    justify-content:center;
+    padding: 1%;
+    font-size: 45px;
+  
+}
+
+
+.perfil img{ border-radius: 4%;
+    width: 50%;
+    margin-top: 3%;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow:10px 10px 0px 0px rgba(0, 0, 0, 0.479);
+}
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h2 {
+    font-family: "Special";
+    text-align: center;
+    font-size: 25px;
+    padding:  5%;
+}
+.mi{
+    font-size: 30px;
+}
+
+p{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-size:20px;
+    margin: 4%;
+    font-family: "Raleway";
+
+}
+
+.contacto{
+    font-size: 30px;
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+}
+
+.redes{  
+    display: flex;
+    justify-content: center;
+    
+}
+i:hover{
+    color: white;
+    font-size: 55px;
+   
+}
+i{
+    color: black;
+    font-size: 40px;
+     margin: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    padding-right: 3%;
+    border-right: 1px black solid;
+    font-family: "Raleway";
+
+}
+
+li{
+    width: 100%;
+    font-size:15px;
+    text-align: justify;
+    padding: 2%;
+  
+}
+
+.discos{
+    background-image:url(..//IMG/izquiera.gif);
+    background-repeat: no-repeat;
+    background-size: 20%;
+   
+}
+
+.actuacion{ background-image:url(..//IMG/izquiera.gif);
+    background-repeat: no-repeat;
+    background-size: 20%;
+
+}
+.premios{  background-image:url(..//IMG/izquiera.gif);
+    background-repeat: no-repeat;
+    background-size: 20%;
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    
+    H1{
+        text-align: center;
+        font-size: 30PX;
+        
+    }
+   
+    i{
+        font-size: 20px;
+        margin: none;
+    }
+}
+
+
+@media screen and (min-width:0px)  and (max-width: 580px){
+ 
+   .perfil img{
+    width: 50%;
+   }
+    .perfil{
+        width: 100%;
+        box-shadow: none;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 130%;
+    
+        width: 90%;
+        border: none;
+    }
+    i{
+        font-size: 40px;
+        margin: none;
+    }
+
+
+ 
+}
